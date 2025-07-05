@@ -1,4 +1,7 @@
 #Greer users and confirm intent to use the system
+print ('Welcome, you can enter student grades for your course.')
+input ('Would you like to enter student grades? ')
+
 
 #Initize an empty list to store students data
 
