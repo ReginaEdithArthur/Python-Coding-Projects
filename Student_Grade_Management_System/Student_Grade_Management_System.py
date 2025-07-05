@@ -1,8 +1,11 @@
-#Greer users and confirm intent to use the system
+#Greet users and ask for intent to use the system
 print ('Welcome, you can enter student grades for your course.')
-input ('Would you like to enter student grades? ')
+go_ahead = input ('Would you like to enter student grades? ')
 
-
+#confirm intent to use the system
+if go_ahead.upper() == "Yes":
+    
+    
 #Initize an empty list to store students data
 
 #Start data entry loop
