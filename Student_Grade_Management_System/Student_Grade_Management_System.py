@@ -3,8 +3,8 @@ print ('Welcome, you can enter student grades for your course.')
 go_ahead = input ('Would you like to enter student grades? ')
 
 #confirm intent to use the system
-if go_ahead.upper() == "Yes":
-    
+#if go_ahead.upper() == "Yes":
+
     
 #Initize an empty list to store students data
 
