@@ -45,7 +45,8 @@ new_list = list.copy() #takes no argument, and copys a list to another list
 print(new_list)
 
 #extend method
-''' list.extend(5), will have to look into this'''
+list.extend([5])
+'''this method works by adding a list, dictionary or tuple to an aready existing list'''
 
 #insert method
 list.insert(0,6) 
