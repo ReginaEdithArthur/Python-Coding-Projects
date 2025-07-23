@@ -55,4 +55,5 @@ Then prints your new value infront of the value that had that index.
 Making the new value take the specified index. 
 In turn causing all the values after the new value to shifting their indexes by one''' 
 print(list)
-
+print(dir(list))
+print(dir())
