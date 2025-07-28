@@ -76,9 +76,12 @@ radius = radius+1
 x = 1			
 y = 2
 #Buggy example
-y = x
-x = y
+# y = x
+# x = y
 #Fix it here!
+c = x
+x = y
+y = c
 
 
 
@@ -89,10 +92,10 @@ x = y
 ## do CTRL+1 again to uncomment them
 ## try it on the next few lines below!
 
-# pi = 355/113
-# radius = 2.2
-# area = pi*(radius**2)
-# circumference = pi*(radius*2)
+pi = 355/113
+radius = 2.2
+area = pi*(radius**2)
+circumference = pi*(radius*2)
 
 ###############################
 ###### AUTOCOMPLETE #######
@@ -120,4 +123,4 @@ value_3 = value_1 ** value_2
 print( f'{value_1} ** {value_2} = {value_3}' )
 
 value_4 = math.log2(value_3)
-print(f'log2({value_3}= {value_4}')
+print(f'log2({value_3})= {value_4}')
