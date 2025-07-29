@@ -352,3 +352,52 @@ else:
 #########################################
 ############### END ANSWERS TO LECTURE ##########################
 #########################################
+
+# Branching 1 Assume you're given 2 int variables: n1 and n2. Print "both" if they are both positive,
+# "only one" if only one of them is positive, and "neither" if neither are positive.
+# assume n1 and n2 are defined for you, do not define them here
+# code here
+if n1 and n2 < 0:
+    print("neither")
+
+elif n1 and n2 >= 0: 
+    print("both")
+
+else:
+    print("only one")
+
+# Branching 2 Assume you're given 2 int variables: n1 and n2. 
+# Print "both" if they both have a 0 as one of their digits, "only one" 
+# if only one of them has a 0, and "neither" if neither has a 0.
+# assume n1 and n2 are defined for you, do not define them here
+# code here
+
+if n1 and n2 == 0:
+    print("both")
+
+elif n1 and n2 != 0:
+    print("neither")
+
+else:
+    print("only one")
+
+# Branching 3 [QUIZ-LEVEL] Assume you're given 2 int variables: n1 and n2. If both are positive, 
+# print the sum of the first digits in each. If both are negative, print the sum of the last digits in each. 
+# If only one is positive and the other is not, 
+# print the result when you divide the last digit by the first digit of the positive n.
+# assume n1 and n2 are defined for you, do not define them here
+# code here
+if n1 and n2 > 0:
+    print(n1[0]+n2[0])
+
+elif n1 and n2 < 0:
+    print(n1[-1]+n2[-1])
+
+else:
+    if n1 > 0:
+        print(n2/n1[-1])
+    
+    else:
+        print(n2/n2[-1])
+
+    
