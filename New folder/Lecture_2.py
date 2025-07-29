@@ -372,10 +372,10 @@ else:
 # assume n1 and n2 are defined for you, do not define them here
 # code here
 
-if n1 and n2 == 0:
+if '0' in str(n1) and '0' in str(n2):
     print("both")
 
-elif n1 and n2 != 0:
+elif '0' not in str(n1) and '0' not in str(n2):
     print("neither")
 
 else:
