@@ -399,6 +399,5 @@ else:
     
     else:
         print(n2/n2[-1])
-        
 
     
